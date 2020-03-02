@@ -1,0 +1,5 @@
+<h1>Admin page</h1>
+
+<p *ngFor="let domain of domains; index as i">
+  {{ i + 1 }}. <strong>{{ domain.hostname }}</strong> ({{ domain.count }})
+</p>

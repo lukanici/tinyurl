@@ -1,0 +1,5 @@
+{
+  "db": {
+    "mongoURI": "tinyurl_db_mongoURI"
+  }
+}

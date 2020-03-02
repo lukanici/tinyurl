@@ -1,0 +1,53 @@
+form
+  width: 100%
+  max-width: 800px
+  display: flex
+  border-radius: 25px
+  margin: auto
+  padding: 50px 50px 15px 50px
+  box-sizing: border-box
+  
+form button
+  color: #f2f2f2
+  background: #678547
+  padding: 15px
+  outline: none
+  border-radius: 10px
+  font-size: 1.2em
+  transition: .2s ease-in
+  transition-property: background, border
+  border: 5px solid #f2f2f2
+  cursor: pointer
+  
+form button:hover
+  background: #40532d
+  
+form button:focus
+  border: 5px solid #b3c99c
+  
+form input
+  color: #40532d
+  background: #d9d9d9
+  width: auto
+  outline: none
+  padding: 15px
+  border-radius: 10px
+  margin-right: 10px
+  font-size: 1.2em
+  border: 5px solid #f2f2f2
+  transition: .2s ease-in
+  transition-property: background, border
+  flex: 1
+  
+form input:focus
+  border: 5px solid #b3c99c
+  
+
+@media only screen and (max-width: 600px)
+  form
+    flex-direction: column
+    border-radius: 0
+    
+  form input
+    margin-right: 0
+    margin-bottom: 10px
